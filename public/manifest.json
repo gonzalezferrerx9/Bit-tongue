@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI Dubbing Agent",
+  "version": "1.0.0",
+  "description": "Real-time AI dubbing extension using Gemini Multimodal Live API.",
+  "permissions": [
+    "offscreen",
+    "tabCapture",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  }
+}

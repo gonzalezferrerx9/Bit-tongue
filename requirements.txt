@@ -1,0 +1,7 @@
+google-genai
+flask
+flask-sock
+python-dotenv
+gunicorn
+pydub
+ffmpeg-python

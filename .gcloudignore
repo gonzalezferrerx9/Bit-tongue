@@ -1,0 +1,20 @@
+# Excluir carpetas de desarrollo pesadas
+.git/
+node_modules/
+src/
+public/
+
+# Excluir variables de entorno locales
+.env
+.env.example
+
+# Excluir configuración de React/Node (Innecesario para Flask)
+package.json
+package-lock.json
+tsconfig.json
+vite.config.ts
+
+# Excluir documentación y metadatos
+README.md
+metadata.json
+!dist/
